@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: aquamarine;
+}
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+	width: 200px;
+	height: 200px;
+	border: solid black 10px;
+	margin: 20px;
+}
+
+h1 {
+	padding-top: 20px;
+	text-align: center;
+	height: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+.container {
+	position: relative;
+	top: 5rem;
+	left: 35rem;
+}
+
+.top-left {
+	background-color: rgb(212, 80, 57);
+	float: left;
+}
+
+.top-right {
+	background-color: rgb(80, 212, 57);
+	float: left;
+}
+
+.bottom-left {
+	background-color: rgb(57, 80, 212);
+	clear: left;
+	float: left;
+}
+
+.bottom-right {
+	background-color: rgb(227, 139, 233);
+	float: left;
+}
+
+.beep {
+	background-color: #ffffff;
+}
+
+.beep-correct {
+	background-color: rgb(25, 18, 122);
+}
+
+.beep-wrong {
+	background-color: rgb(148, 50, 20);
+}
